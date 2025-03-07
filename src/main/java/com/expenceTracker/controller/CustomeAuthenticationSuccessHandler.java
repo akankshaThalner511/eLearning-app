@@ -25,7 +25,7 @@ import jakarta.servlet.http.HttpSession;
 public class CustomeAuthenticationSuccessHandler implements AuthenticationSuccessHandler {
     UserService userService;
     ClientService clientService;
-
+//Custome Authentication SuccessHandler Method 
     public CustomeAuthenticationSuccessHandler(UserService userService, ClientService clientService) {
         this.userService = userService;
         this.clientService = clientService;
