@@ -34,6 +34,8 @@ public class MainController {
         return "landing-page";
     }
 
+    
+
 
 //    @Autowired
 //    public MainController(ExpenseService expenseService, CategoryService categoryService) {
@@ -123,8 +125,15 @@ public class MainController {
         model.addAttribute("expenseList", expenseList);
         return "filter-result";
     }
+    //bug fix 202
+    @GetMapping("/hi202")
+    public String showHomePage() {
+        // Return home page logical view name
+        return "landing-page";
+    }
+
 // bug fix 303
-    @GetMapping("/h303")
+    @GetMapping("/hi303")
     public String showHomePage() {
         // Return home page logical view name
         return "landing-page";
