@@ -123,7 +123,7 @@ public class MainController {
         model.addAttribute("expenseList", expenseList);
         return "filter-result";
     }
-
+// bug fix 303
     @GetMapping("/h303")
     public String showHomePage() {
         // Return home page logical view name
