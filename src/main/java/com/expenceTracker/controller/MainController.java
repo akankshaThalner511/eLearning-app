@@ -124,5 +124,10 @@ public class MainController {
         return "filter-result";
     }
 
+    @GetMapping("/h303")
+    public String showHomePage() {
+        // Return home page logical view name
+        return "landing-page";
+    }
 
 }
